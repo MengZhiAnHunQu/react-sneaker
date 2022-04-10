@@ -7,7 +7,7 @@ export const Info = () => {
     <div
       className="info "
       style={{
-        marginTop: "120px",
+        marginTop: "110px",
       }}
     >
       <Container>

@@ -16,19 +16,31 @@ export const Top = () => {
           </svg>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Collapse id="navbarScroll" className="mt-2">
           <Nav
             className="me-auto my-lg-0 fs-6"
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="#action1" className="ms-4 ">
+            <Nav.Link
+              href="#action1"
+              className="ms-4 "
+              style={{ fontSize: "16px" }}
+            >
               Collections
             </Nav.Link>
-            <Nav.Link href="#action2">Men</Nav.Link>
-            <Nav.Link href="#action2">Women</Nav.Link>
-            <Nav.Link href="#action2">About</Nav.Link>
-            <Nav.Link href="#action2">Contact</Nav.Link>
+            <Nav.Link href="#action2" style={{ fontSize: "16px" }}>
+              Men
+            </Nav.Link>
+            <Nav.Link href="#action2" style={{ fontSize: "16px" }}>
+              Women
+            </Nav.Link>
+            <Nav.Link href="#action2" style={{ fontSize: "16px" }}>
+              About
+            </Nav.Link>
+            <Nav.Link href="#action2" style={{ fontSize: "16px" }}>
+              Contact
+            </Nav.Link>
           </Nav>
 
           <Button variant="outline-light" className="me-4 ">

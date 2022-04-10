@@ -6,7 +6,7 @@ import { Top } from "./components/navbar/Top";
 
 function App() {
   return (
-    <div className="wrapper mt-2">
+    <div className="wrapper">
       <Container>
         <Top />
         <Row>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container } from "react-bootstrap";
 import { QuantityButton } from "../quantityButton/QuantityButton";
 
 export const Info = () => {

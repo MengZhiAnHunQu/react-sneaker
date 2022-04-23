@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Col, Container } from "react-bootstrap";
 import { QuantityButton } from "../quantityButton/QuantityButton";
 
-export const Info = () => {
+export const Info = ({ moneyAdd, totalAmount, moneyReduce }) => {
   return (
     <div
       className="info "
@@ -29,7 +29,7 @@ export const Info = () => {
           information information information information
         </div>
         <div className="fw-bolder fs-4 mt-3 d-flex">
-          $125.00
+          {totalAmount}
           <Button
             size="sm"
             className="ms-2 fw-bold"
@@ -56,7 +56,7 @@ export const Info = () => {
 
         <div className="d-flex" style={{ marginTop: "38px" }}>
           <Col md="4">
-            <QuantityButton />
+            <QuantityButton moneyAdd={moneyAdd} moneyReduce={moneyReduce} />
           </Col>
 
           <Col md="8">

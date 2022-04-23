@@ -1,6 +1,10 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import imageShoe from "../../images/imageShoe.jpg";
+import imageProduct1Thumbnail from "../../images/imageProduct1Thumbnail.jpg";
+import imageProduct2Thumbnail from "../../images/imageProduct2Thumbnail.jpg";
+import imageProduct3Thumbnail from "../../images/imageProduct3Thumbnail.jpg";
+import imageProduct4Thumbnail from "../../images/imageProduct4Thumbnail.jpg";
 
 export const Display = () => {
   return (
@@ -17,27 +21,27 @@ export const Display = () => {
 
         <div className="d-flex  justify-content-between px-4">
           <img
-            src={imageShoe}
+            src={imageProduct1Thumbnail}
             alt=""
-            width="80px"
+            width="20%"
             style={{ borderRadius: "10px" }}
           />{" "}
           <img
-            src={imageShoe}
+            src={imageProduct2Thumbnail}
             alt=""
-            width="80px"
+            width="20%"
             style={{ borderRadius: "10px" }}
           />{" "}
           <img
-            src={imageShoe}
+            src={imageProduct3Thumbnail}
             alt=""
-            width="80px"
+            width="20%"
             style={{ borderRadius: "10px" }}
           />{" "}
           <img
-            src={imageShoe}
+            src={imageProduct4Thumbnail}
             alt=""
-            width="80px"
+            width="20%"
             style={{ borderRadius: "10px" }}
           />
         </div>
